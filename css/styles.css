@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(135deg, #1a1a1a, #333333);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: linear-gradient(135deg, #ff6f61, #ffcc00);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.calculator-list, .formula-list, .chatbox {
+    margin-top: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff6f61;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.formula-category {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.formula-category h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ff6f61;
+}
+
+.formula-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.formula-category li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.formula-category strong {
+    color: #ffcc00;
+}
